@@ -1,0 +1,10 @@
+﻿<div class="p-4">
+    <div class="container">
+        <h1>Hi {{user.firstName}}!</h1>
+        <p>You're now logged in.</p>
+        
+        <a routerLink="/users" class="btn btn-sm btn-success ">Manage Users</a>
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+            
+    </div>
+</div>
